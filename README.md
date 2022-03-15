@@ -1,4 +1,4 @@
-# viteApp
+# React app with redux tool kit setup
 
 Sample react redux tool kit app generated using https://vitejs.dev/guide 
 
