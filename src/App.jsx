@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import logo from "./logo.svg";
-import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 import { increment, decrement, getQuotes } from "./features/counterSlice";
 
@@ -35,7 +34,7 @@ function App() {
         <p>
           <button type="button">count is: {count}</button>
           <div style={{ display: "flex", gap: "10px", padding: "10px" }}>
-            <button onClick={handleClickIncrement}>Increment</button>
+            <button className="bg-blue-500 rounded-sm" onClick={handleClickIncrement}>Increment</button>
             <button onClick={handleClickDecrement}>Decrement</button>
           </div>
         </p>
